@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DanyloTrofymov/web-lab1-v2#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "eslint-plugin-sonarjs": "^0.10.0"
   }
 }
