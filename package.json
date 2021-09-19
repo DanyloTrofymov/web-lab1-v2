@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DanyloTrofymov/web-lab1-v2/issues"
   },
-  "homepage": "https://github.com/DanyloTrofymov/web-lab1-v2#readme"
+  "homepage": "https://github.com/DanyloTrofymov/web-lab1-v2#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
 }
