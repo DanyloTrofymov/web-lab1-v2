@@ -1,0 +1,5 @@
+.right-aside {
+    background-color: lightgreen;
+    grid-area: right-aside;
+    padding: 20px;
+}

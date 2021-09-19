@@ -1,0 +1,12 @@
+.navigation {
+    padding: 10px;
+}
+
+.navigation__link {
+    padding: 5px;
+    position: relative;
+}
+
+.navigation__link--active {
+    font-weight: 700;
+}
