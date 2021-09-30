@@ -1,5 +1,5 @@
 .left-aside {
-  background-color: lightpink;
+  background-color: var(--leftside);
   grid-area: left-aside;
   padding: 20px;
 }

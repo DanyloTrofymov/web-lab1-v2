@@ -3,5 +3,4 @@
 
 npm run format
 npm run jslint
-npm run stylelint
-git add .
+npm run lint

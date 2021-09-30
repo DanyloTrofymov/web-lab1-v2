@@ -1,5 +1,5 @@
 .header {
-  background-color: lightblue;
+  background-color: var(--base);
   grid-area: header;
   padding: 20px;
 }

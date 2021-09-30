@@ -1,4 +1,4 @@
 .top-main-aside {
-  background-color: lightgreen;
+  background-color: var(--rightside);
   grid-area: top-main-aside;
 }
