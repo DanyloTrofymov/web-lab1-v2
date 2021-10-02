@@ -1,4 +1,3 @@
 {
-  "extends": ["stylelint-config-standard"],
-  "ignorePath": [ ".gitignore"]
+  "extends": ["stylelint-config-standard"]
 }
