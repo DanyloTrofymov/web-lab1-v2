@@ -1,5 +1,9 @@
-.left-aside {
+.left {
   background-color: var(--leftside);
   grid-area: left-aside;
   padding: 20px;
+  border: 1px solid;
 }
+
+
+

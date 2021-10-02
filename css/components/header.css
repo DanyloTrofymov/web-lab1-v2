@@ -1,5 +1,14 @@
-.header {
+header {
   background-color: var(--base);
   grid-area: header;
+  margin: 0;
   padding: 20px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+header .headline{
+  position: absolute;
+  right: 0;
+  width: 13%;
 }
