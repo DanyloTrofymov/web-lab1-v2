@@ -4,14 +4,13 @@
   "description": "lab1-v2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "stylelint": "stylelint \"css/**/*.css\"",
-    "stylelint:fix": "stylelint \"css/**/*.css\" --fix",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prepare": "husky install",
-    "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "eslint:fix": "eslint . --fix --ignore-path .gitignore",
+    "eslint:check": "eslint . --ignore-path .gitignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore  --ignore-path .prettierignore",
+    "format:check": "prettier --check . --ignore-path .gitignore  --ignore-path .prettierignore",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix --ignore-path .gitignore",
+    "stylelint:check": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
