@@ -1,12 +1,12 @@
-.navigation {
-  padding: 10px;
+nav a:link,
+a:visited {
+  color: green;
 }
 
-.navigation a {
-  padding: 5px;
-  position: relative;
+nav a:hover {
+  color: darkgreen;
 }
 
-.navigation a.active {
-  font-weight: 700;
+nav a.active {
+  color: red;
 }
