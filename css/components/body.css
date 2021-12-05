@@ -1,13 +1,16 @@
 body {
   margin: 0;
   display: grid;
-  width: 100%;
   min-height: 100vh;
   grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 20% 5% min-content 20%;
+  grid-template-rows: 15vh 5vh min-content 15vh;
   grid-template-areas:
     'left-aside header header'
     'left-aside top-main-aside right-aside'
     'left-aside main right-aside'
     'footer footer footer';
+}
+
+* {
+  box-sizing: border-box;
 }
