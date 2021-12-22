@@ -1,12 +1,12 @@
 nav a:link,
 nav a:visited {
-  color: green;
+  color: var(--link);
 }
 
 nav a:hover {
-  color: darkgreen;
+  color: var(--hover);
 }
 
 nav a.active {
-  color: red;
+  color: var(--active);
 }

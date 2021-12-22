@@ -3,12 +3,8 @@ header {
   grid-area: header;
   margin: 0;
   padding: 20px;
-  overflow: hidden;
   border: 1px solid;
-}
-
-header h1 {
-  position: absolute;
-  right: 0;
-  width: 13%;
+  display: flex;
+  justify-content: flex-end;
+  word-break: break-all;
 }
