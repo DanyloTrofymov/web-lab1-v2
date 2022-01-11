@@ -1,4 +1,5 @@
-.main {
+main {
   grid-area: main;
+  border: 1px solid;
   padding: 20px;
 }

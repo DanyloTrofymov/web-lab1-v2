@@ -1,14 +1,16 @@
 {
   "name": "lab1-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "lab1-v2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "stylelint": "stylelint \"css/**/*.css\"",
-    "jslint": "eslint .",
-    "prepare": "husky install",
-    "format": "prettier --write ."
+    "eslint:fix": "eslint . --fix --ignore-path .gitignore",
+    "eslint:check": "eslint . --ignore-path .gitignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore ",
+    "format:check": "prettier --check . --ignore-path .gitignore ",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix --ignore-path .gitignore",
+    "stylelint:check": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,9 @@
-.header {
-  background-color: lightblue;
+header {
+  background-color: var(--base);
   grid-area: header;
+  margin: 0;
   padding: 20px;
+  border: 1px solid;
+  text-align: right;
+  word-break: break-all;
 }

@@ -1,5 +1,6 @@
-.footer {
-  background-color: lightblue;
+footer {
+  background-color: var(--base);
   grid-area: footer;
   padding: 20px;
+  border: 1px solid;
 }

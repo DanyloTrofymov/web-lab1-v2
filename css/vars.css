@@ -1,0 +1,9 @@
+:root {
+  --base: lightblue;
+  --leftside: lightpink;
+  --rightside: lightgreen;
+  --border: black;
+  --link: green;
+  --hover: rgb(0, 50, 0);
+  --active: red;
+}
