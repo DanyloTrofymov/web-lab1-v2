@@ -1,3 +1,11 @@
+nav {
+  display: flex;
+}
+
+nav a {
+  padding: 10px;
+}
+
 nav a:link,
 nav a:visited {
   color: var(--link);

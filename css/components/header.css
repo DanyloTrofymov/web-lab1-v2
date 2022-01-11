@@ -4,7 +4,6 @@ header {
   margin: 0;
   padding: 20px;
   border: 1px solid;
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
   word-break: break-all;
 }
