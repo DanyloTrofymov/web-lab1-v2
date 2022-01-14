@@ -1,2 +1,2 @@
 # web-lab1-v2
-web-lab1-v2.vercel.app
+preview on: http://web-lab1-v2.vercel.app/
